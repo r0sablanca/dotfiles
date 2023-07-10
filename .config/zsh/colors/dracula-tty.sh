@@ -1,0 +1,21 @@
+if [ "$TERM" = "linux" ]; then
+	printf %b '\e[40m' '\e[8]' # set default background to color 0 'dracula-bg'
+	printf %b '\e[37m' '\e[8]' # set default foreground to color 7 'dracula-fg'
+	printf %b '\e]P022212C'    # redefine 'black'          as 'dracula-bg'
+	printf %b '\e]P8504C67'    # redefine 'bright-black'   as 'dracula-comment'
+	printf %b '\e]P1ff5555'    # redefine 'red'            as 'dracula-red'
+	printf %b '\e]P9ff7777'    # redefine 'bright-red'     as '#ff7777'
+	printf %b '\e]P28AFF80'    # redefine 'green'          as 'dracula-green'
+	printf %b '\e]PAA2FF99'    # redefine 'bright-green'   as '#A2FF99'
+	printf %b '\e]P3FFFF80'    # redefine 'brown'          as 'dracula-yellow'
+	printf %b '\e]PBFFFF99'    # redefine 'bright-brown'   as '#FFFF99'
+	printf %b '\e]P49580FF'    # redefine 'blue'           as 'dracula-purple'
+	printf %b '\e]PCAA99FF'    # redefine 'bright-blue'    as '#AA99FF'
+	printf %b '\e]P5FF80BF'    # redefine 'magenta'        as 'dracula-pink'
+	printf %b '\e]PDFF99CC'    # redefine 'bright-magenta' as '#FF99CC'
+	printf %b '\e]P680FFEA'    # redefine 'cyan'           as 'dracula-cyan'
+	printf %b '\e]PE99FFEE'    # redefine 'bright-cyan'    as '#A4FFFF'
+	printf %b '\e]P7F8F8F2'    # redefine 'white'          as 'dracula-fg'
+	printf %b '\e]PFFFFFFF'    # redefine 'bright-white'   as '#f8f8f8'
+	clear
+fi
