@@ -1,4 +1,5 @@
 ${DOTFILES}/.config/zsh/.zshenv=$HOME/.zshenv
+${DOTFILES}/.config/zsh/colors/.dircolors=$HOME/.config/.dircolors
 ${DOTFILES}/.config/bash/.bashrc=$HOME/.bashrc
 ${DOTFILES}/.config/btop/btop.conf=$HOME/.config/btop/btop.conf
 ${DOTFILES}/.config/htop/htoprc=$HOME/.config/htop/htoprc
