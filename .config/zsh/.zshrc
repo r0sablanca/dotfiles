@@ -167,6 +167,7 @@ alias ti='tmux info'
 # GIT
 alias glr='~/.local/bin/convert-gitlab-ssh.sh'
 alias ghr='~/.local/bin/convert-github-ssh.sh'
+alias gch='~/.local/bin/git-commit-helper.sh'
 # SSH
 alias sshrsa='ssh-keygen -t rsa -b 4096'
 alias sshag='eval "$(ssh-agent -s)"'
